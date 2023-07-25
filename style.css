@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(154, 181, 193); /* Sky blue background color for the entire page */
+  color:black; /* Default text color */
+}
+
+/* Header Styles */
+header {
+  background-color: rgb(255, 251, 251); /* Mint green background color for the header */
+  color: rgb(18, 17, 17); /* White text color for the header */
+  padding: 1rem;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+pre{
+  font-family: 'Times New Roman', Times, serif;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(18, 1, 1); /* White text color for the navigation links in the header */
+}
+
+/* Main Content Styles */
+main {
+  padding: 2rem;
+}
+h1{
+  color:rgb(235, 6, 6);
+}
+
+h2 {
+  border-bottom: 2px solid rgb(58, 56, 56); /* Mint green underline for the section headings */
+  padding-bottom: 0.5rem;
+}
+
+h4 {
+  color:rgb(4, 4, 4); /* Mint green color for the section subheadings */
+}
+.small-photo {
+  width: 200px;
+  height: auto;
+}
+.small-photo2 {
+  width: 300px;
+  height: auto;
+}
+
+
+strong {
+  color: rgb(25, 24, 24); /* Mint green color for emphasis */
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+/* Footer Styles */
+footer {
+  background-color: rgb(246, 243, 243); /* Mint green background color for the footer */
+  color: rgb(30, 26, 26); /* White text color for the footer */
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Link Styles */
+a {
+  color: rgb(52, 44, 44); /* Mint green color for links */
+}
+
+a:hover {
+  color: #312a2a; /* Darker shade for links on hover */
+}
